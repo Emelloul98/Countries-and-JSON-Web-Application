@@ -1,0 +1,89 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.newDiv{
+    flex:5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.firstHeader{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    
+}
+.firstHeader h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.secondHeader{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color:brown;
+    
+}
+.secondHeader h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+.main-content{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+}
+.contentA,
+.contentB,
+.contentC
+{
+    flex: 1;
+    min-height: 150px; 
+    color: transparent;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black ;
+}
+.contentA{
+    background-color: blue;
+}
+.contentB{
+    background-color: white;
+}
+.contentC{
+    background-color: red;
+}
+.tableDiv {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableDiv th, .tableDiv td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.tableDiv th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.tableDiv tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tableDiv tr:hover {
+    background-color: #ddd;
+}
+.main p{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
