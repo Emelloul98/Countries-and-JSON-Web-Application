@@ -37,4 +37,4 @@ This project creates a webpage where users can input JSON data, which is then pa
 
 **Example:**
 
-![Countries and JSON Web Application]()
+![Countries and JSON Web Application](https://github.com/Emelloul98/Countries-and-JSON-Web-Application/blob/main/Example.png)
